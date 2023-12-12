@@ -34,6 +34,15 @@ export default function Page() {
         </div>
         <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
           {/* <div className={styles.shape}></div> */}
+          { /*
+              md: min-width:768px;
+              hidden: display:none;
+              block: display:block;
+
+              md:block: 横幅768px以上の時に、display:block;になる
+
+              Imageコンポーネントは、画像指定しないことによるシフトずれを防ぐ
+          */}
           <Image
             src="/hero-desktop.png"
             width={1000}
